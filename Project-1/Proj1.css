@@ -767,6 +767,13 @@ footer > div:last-child > a > i{
 
 }
 
+/* for mobile landscape */
+@media (min-height: 300px) and (max-height: 500px) {
+   figure > img { 
+      width: 100%;
+      height: fit-content;
+   }
+}
 
 /* Small screens, laptops */
 @media (min-width: 767px) {
