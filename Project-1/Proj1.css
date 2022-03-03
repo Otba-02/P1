@@ -767,7 +767,7 @@ footer > div:last-child > a > i{
 
 }
 
-/* for mobile landscape */
+/* for mobile rotate */
 @media (min-height: 300px) and (max-height: 500px) {
    figure {
       height: 91.3vh;
