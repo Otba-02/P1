@@ -771,7 +771,10 @@ footer > div:last-child > a > i{
 @media (min-height: 300px) and (max-height: 500px) {
    figure > img { 
       width: 100%;
-      height: fit-content;
+      height: calc(100vh - -13px);
+   }
+   figure {
+    height: calc(84vh);
    }
 }
 
