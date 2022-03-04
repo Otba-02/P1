@@ -97,16 +97,12 @@ nav > div > div:nth-of-type(1) > div:last-child {
 /*** start hover ***/
 
 /* hover to second line to become bigger */
-.menu:hover div:nth-of-type(1) > div:nth-child(2),
-.menu:active div:nth-of-type(1) > div:nth-child(2),
-.menu:focus div:nth-of-type(1) > div:nth-child(2) {
+.menu:hover div:nth-of-type(1) > div:nth-child(2) {
    width: 30px;
 }
 
 /* hover to appear the list in menu */
-.menu:hover div:nth-child(2),
-.menu:active div:nth-child(2),
-.menu:focus div:nth-child(2) {
+.menu:hover div:nth-child(2) {
    display: block;
 }
 
